@@ -444,6 +444,13 @@ width: 100%;
         justify-content: space-around;
         align-items: center;
     }
+    .grid-conteiner2{
+        display: flex;
+        justify-content: center;
+    }
+    .grid-itema img {
+        display: none;
+    }
 
     .imagenes img {
         width: 70%;
