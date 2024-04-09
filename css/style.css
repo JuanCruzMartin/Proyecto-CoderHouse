@@ -449,11 +449,19 @@ width: 100%;
         width: 70%;
         height: 50%;
     }
+
     .imagenes {
         display: flex;
         justify-content: center;
     }
-
+.grid-conteiner2{
+    display: flex;
+    justify-content: center;
+    
+}
+.grid-itema img {
+    display: none;
+}
     .imagenes:hover {
         background-color: black;
         color: white;
