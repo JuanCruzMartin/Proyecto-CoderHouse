@@ -1,488 +1,129 @@
 /**  PAGINA INDEX**/
 /* GENERALES*/
 .container {
-    background-color: rgb(94, 85, 85);
-    margin: 0;
-    padding: 0;
-}
-.whatsapp {
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    position: fixed;
-    z-index: 3;
-    bottom: 0%;
-    right: 0%;
+  background-color: rgb(94, 85, 85);
+  margin: 0;
+  padding: 0;
 }
 
+.whatsapp {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  position: fixed;
+  z-index: 3;
+  bottom: 0%;
+  right: 0%;
+}
 
 body {
-    background-color: rgb(94, 85, 85);
-}
-/*NAVBAR */
-/*NAVBAR */
-.navbar {
-    background-color: rgb(94, 85, 85);
-    color: white;
-    }
-    .navbar-collapse{
-        align-items:center;
-        justify-content:space-between;
-    }
-    
-    .navbar-contenedor .navbar-brand {
-        color:white;
-        padding: 10px;
-        margin: 10px;
-    }
-    
-    .nav-item .nav-link {
-        color: rgb(203, 212, 220);
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        
-    }
-    
-    .navbar a:hover{
-        color: red;
-    }
-    
-    
-/** MAIN  **/
-.carrusel-main {
-    background-color:  rgb(94, 85, 85);
-}
-header {
-    background-color:  rgb(94, 85, 85);
+  background-color: rgb(94, 85, 85);
 }
 
 main {
-    background-color: rgb(94, 85, 85);
-}
-.seccion-card{
-    background-color: rgb(94, 85, 85);
-    margin: 10px;
-    padding: 10px;
-}
-.card-title{
-    font-size: 1.5rem;
+  background-color: rgb(94, 85, 85);
 }
 
-/*SECTION VIDEO INDEX */
-
-/* Video*/
-section video {
-    background-color:rgb(94, 85, 85) ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.seccion-video {
-    background-color: rgb(94, 85, 85);
-    max-width: 100%;
-    width: 100%;
-   
-}
-
-.video-item {
-
-    margin: 0;
-    padding: 0;
-    height: 100% ;
-}
-.video-contenedor {
-    margin: 10px;
-    padding: 10px;
-}
-/*FOOTER */
 footer {
-    min-height: 500px;
-    background-color:rgb(94, 85, 85) ;
-    border-top: 2px solid black;
+  min-height: 500px;
+  background-color: rgb(94, 85, 85);
+  border-top: 2px solid black;
 }
-footer i{
-    color: white;
+footer .footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #fff;
 }
-
-.footer-logo {
-    height: 4rem;
-    width: 4rem;
-    margin: 10px;
-    background-color: white;
-    position: relative;
-    align-self: center;
- 
-
+footer .iconos-redes-sociales a {
+  background-color: rgb(237, 241, 19);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
 }
-
-.footer-texto {
-    font-size: 1.5rem;
-    padding: 20px;
-    margin-bottom: 30px;
-    color: #fff;
-}
-footer p {
-    color: #fff;
-}
-
-.iconos-redes-sociales a{
-   background-color: rgb(237, 241, 19);
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    transition: all 0.2s ease-in;
-}
-
-.iconos-redes-sociales i {
-    color: rgb(86, 83, 83);
-    font-size: 1.5rem;
-    transition: all 0.2s ease-in;
+footer .iconos-redes-sociales a i {
+  color: rgb(86, 83, 83);
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales a:hover {
-background-color: white;
-border: 2px solid rgb(13, 110, 253);
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
 }
 
-.iconos-redes-sociales a:hover i {
-color: #0a0a23;
+header {
+  background-color: rgb(94, 85, 85);
+}
+header .navbar {
+  background-color: rgb(94, 85, 85);
+  color: white;
+}
+header .navbar .navbar-contenedor .navbar-brand {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+header .navbar .navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar .navbar-collapse .nav-item .nav-link {
+  color: rgb(203, 212, 220);
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-/* OTRA COSA QUE TENGO QUE INVESTIGAR */
-.modelo {
-    width: 100%;
-    height: 80%;
+.navbar a:hover {
+  color: red;
 }
 
-.imagenes{
-    display: flex;
-    margin: 10px;
+/* CARRUSEL*/
+.carrusel-main {
+  background-color: rgb(94, 85, 85);
 }
 
-.content {
-    display: flex;
-    border-top: 5px solid #a9a9a9;
-    height: 50%;
+/* Cards*/
+.seccion-card {
+  background-color: rgb(94, 85, 85);
+  margin: 10px;
+  padding: 10px;
+}
+.seccion-card .col .card .card-body .card-title {
+  font-size: 1.5rem;
 }
 
-
-.content p {
-    color: #fff;
+.seccion-video {
+  background-color: rgb(94, 85, 85);
+  max-width: 100%;
+  width: 100%;
 }
-.OFERTA {
-    color: rgb(184, 3, 3);
-    align-self: center;
+.seccion-video .video-contenedor {
+  margin: 10px;
+  padding: 10px;
+  align-items: stretch;
 }
-  
-
-
-
-
-
-/**PAGINA CONTACTO **/
-
-.labeltext {
-    color: #fff;
+.seccion-video .video-contenedor .row .video-item .videos {
+  background-color: rgb(94, 85, 85);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
- 
-fieldset legend {
-    color: #fff;
-}
-
-section h2 {
-    color: #fff;
-}
-header nav .navegacion-principal{
-    display: flex;
-}
-.logopharos {
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    width: 8rem;
+.seccion-video .video-contenedor .row .video-no .videos2 {
+  background-color: rgb(94, 85, 85);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-/** PAGINA REGISTRARSE **/
-
-main h2 {
-    color: #fff;
-}
-
-.modelo {
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 50%;
-}
-.registrofotos{
-    display: flex;
-}
-
-
-
-
-/*PAGINA SHOP*/
-.producto {
-    margin-left: 10px;
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
-    border: black 5px;
-}
-
-.grid-content{
-    display: grid;
-    grid-template-columns: repeat(5,20%);
-    grid-template-rows: repeat(2,50%);
-    border: 1px solid grey;
-    grid-template-areas: 
-    "grid-item1 grid-item2 grid-item3 grid-item7 grid-item8"
-    "grid-item1 grid-item4 grid-item5 grid-item6 grid-item9";
-}
-
-.imagenes .contenido {
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.imagenes .contenido img {
-    max-width: 90%;
-    max-height: 70%;
-    border-radius: 5px;
-    margin: 5px;
-    align-items: center;
-    margin-left: 10px;
-
-}
-.grid-item1 p {
-    color: #fff;
-}
-.imagenes .contenido p {
-    margin-top: 10px;
-    text-align: center;
-    color: white;
-}
-
-.grid-item1 {
-    grid-area: grid-item1;
-    border: 1px solid grey;
-
-}
-
-.grid-item2{
-    grid-area: grid-item2;
-    border: 1px solid grey;
-}
-.grid-item2 img {
-    width: 100%;
-    height: 80%;
-    
-}
-.grid-item3{
-    grid-area: grid-item3;
-    border: 1px solid grey;
-    
-}
-.grid-item3 img {
-    width: 100%;
-    height: 80%;
-   
-}
-.grid-item4{
-    grid-area: grid-item4;
-    border: 1px solid grey;
-}
-.grid-item4 img {
-
-    width: 100%;
-    height: 80%;
-    
-}
-.grid-item5{
-    grid-area: grid-item5;
-    border: 1px solid grey;
-}
-.grid-item5 img {
-    width: 100%;
-    height: 80%;
-}
-.grid-item6 {
-    grid-area: grid-item6;
-    border: 1px solid grey;
-}
-.grid-item6 img {
-    width: 100%;
-    height: 100%;
-}
-.grid-item7{
-    grid-area: grid-item7;
-    border: 1px solid grey;
-}
-.grid-item7 img {
-    width: 100%;
-    height: 100%;
-    
-}
-.grid-item8{
-    grid-area: grid-item8;
-    border: 1px solid grey;
-}
-.grid-item8 img {
-    width: 100%;
-    height: 100%;
-    
-}
-
-.grid-item9{
-    grid-area: grid-item9;
-    border: 1px solid grey;
-}
-.grid-item9 img {
-    width: 100%;
-    height: 100%;
-    
-}
-.imagenes:hover {
-    background-color: black;
-    color: white;
-}
-
-.footer-shop {
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-}
-
-/*Nosotros con grid */
-main .nosotros {
-    display: flex;
-}
-.historia {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 5%;
-    color: #fff;
-}
-.nosotrosh2{
-    justify-content: center;
-    margin: 10%;
-
-}
-.nosotros02{
-    display: flex;
-    
-}
-main section .faro {
-width: 100%;
- height: 50%;
-}
-.nosotrosh2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-
-}
-
-.grid-conteiner2 {
-    display: grid;
-    grid-template-columns: repeat(2,50%);
-    grid-area: 
-    "grid-itema grid-itemb";
-}
-.grid-itema {
-    grid-area: grid-itema;
-    grid-column: 1/2;
-}
-
-.grid-itema img {
-    z-index: 1;
-}
-
-.grid-itemb {
-    grid-area: grid-itemb;
-    grid-column: 2/3;
-}
-
-.grid-itemb p {
-    padding-top: 2rem;
-}
-
-
-
-
-
-
-/* MEDIA QUERYS */
-
-@media screen and (max-width:500px){
-    .row .video-no {
-        display: none;
-    }
-    .grid-content{
-        display: grid;
-        grid-template-columns: repeat(2,50%);
-        grid-template-rows: repeat(5,20%);
-        grid-template-areas: 
-        "grid-item1 grid-item1"
-        "grid-item2 grid-item3"
-        "grid-item4 grid-item5"
-        "grid-item6 grid-item7"
-        "grid-item8 grid-item9";
-    }
-    .grid-content .grid-item1 {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .grid-conteiner2{
-        display: flex;
-        justify-content: center;
-    }
-    .grid-itema img {
-        display: none;
-    }
-
-    .imagenes img {
-        width: 70%;
-        height: 50%;
-    }
-
-    .imagenes {
-        display: flex;
-        justify-content: center;
-    }
-.grid-conteiner2{
-    display: flex;
-    justify-content: center;
-    
-}
-.grid-itema img {
-    display: none;
-}
-    .imagenes:hover {
-        background-color: black;
-        color: white;
-    }
-}
-@media screen and (max-width:1077px){
-    .grid-conteiner2{
-        display: flex;
-        justify-content: center;
-    }
-    .grid-itema img {
-        display: none;
-    }
-}
+/*# sourceMappingURL=style.css.map */

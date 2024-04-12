@@ -1,0 +1,61 @@
+/**  PAGINA INDEX**/
+/* GENERALES*/
+.container {
+    background-color: rgb(94, 85, 85);
+    margin: 0;
+    padding: 0;
+}
+.whatsapp {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    bottom: 0%;
+    right: 0%;
+}
+
+
+body {
+    background-color: rgb(94, 85, 85);
+}
+main {
+    background-color: rgb(94, 85, 85);
+}
+
+footer {
+    min-height: 500px;
+    background-color:rgb(94, 85, 85) ;
+    border-top: 2px solid black;
+    .footer-texto {
+        font-size: 1.5rem;
+        padding: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    .iconos-redes-sociales{
+        a {
+            background-color: rgb(237, 241, 19);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid white;
+            border-radius: 50%;
+            transition: all 0.2s ease-in;
+
+            i {
+                color: rgb(86, 83, 83);
+                font-size: 1.5rem;
+                transition: all 0.2s ease-in;
+            }
+        }
+    }
+}
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+    }

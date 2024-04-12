@@ -1,0 +1,28 @@
+header {
+    background-color:  rgb(94, 85, 85);
+
+.navbar {
+    background-color: rgb(94, 85, 85);
+    color: white;
+    .navbar-contenedor .navbar-brand {
+        color:white;
+        padding: 10px;
+        margin: 10px;
+    }
+    .navbar-collapse{
+        align-items:center;
+        justify-content:space-between;
+        .nav-item {
+            .nav-link{
+                color: rgb(203, 212, 220);
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+         }
+        }
+    }
+}
+    .navbar a:hover{
+        color: red;
+    }
