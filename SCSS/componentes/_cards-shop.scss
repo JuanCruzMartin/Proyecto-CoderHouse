@@ -1,0 +1,39 @@
+/* cards de la shop*/
+.grid-content{
+    .imagenes{
+       
+        .contenido{
+            display: block;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                max-width: 90%;
+                max-height: 70%;
+                border-radius: 5px;
+                margin: 5px;
+                align-items: center;
+                margin-left: 10px;
+            }
+
+            p {
+                margin-top: 10px;
+                text-align: center;
+                color: white;
+
+            }
+
+            .producto{
+                margin-left: 10px;
+                width: 200px;
+                height: 200px;
+                border-radius: 5px;
+                border: black 5px;
+            }
+        }
+   
+    }
+    .imagenes:hover {
+        background-color: black;
+        color: white;}
+}

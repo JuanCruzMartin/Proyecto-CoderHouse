@@ -14,7 +14,9 @@
     bottom: 0%;
     right: 0%;
 }
-
+main h2{
+    color: #fff;
+}
 
 body {
     background-color: rgb(94, 85, 85);
@@ -22,7 +24,7 @@ body {
 main {
     background-color: rgb(94, 85, 85);
 }
-
+/*footer indez */
 footer {
     min-height: 500px;
     background-color:rgb(94, 85, 85) ;
@@ -55,7 +57,121 @@ footer {
         }
     }
 }
+
+
 .iconos-redes-sociales a:hover {
     background-color: white;
     border: 2px solid rgb(13, 110, 253);
+    }
+/* footer paginas que no son index*/
+.footer-shop {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+
+    
+        .footer-texto {
+        font-size: 1.5rem;
+        padding: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        }
+
+        .footer-logo {
+        height: 4rem;
+        width: 4rem;
+        margin: 10px;
+        background-color: white;
+        position: relative;
+        align-self: center;
+     
+    
+    }
+}
+    /* base pagina grid*/
+    .grid-content{
+        display: grid;
+        grid-template-columns: repeat(5,20%);
+        grid-template-rows: repeat(2,50%);
+        border: 1px solid grey;
+        grid-template-areas: 
+        "grid-item1 grid-item2 grid-item3 grid-item7 grid-item8"
+        "grid-item1 grid-item4 grid-item5 grid-item6 grid-item9";
+
+        .grid-item1{
+            grid-area: grid-item1;
+            border: 1px solid grey;
+
+            p{
+                color: #fff;
+            }
+        }
+        .grid-item2{
+            grid-area: grid-item2;
+            border: 1px solid grey;
+
+            img {
+                width: 100%;
+                height: 80%;
+            }
+        }
+        .grid-item3{
+            grid-area: grid-item3;
+            border: 1px solid grey;
+
+            img{
+                width: 100%;
+                height: 80%;
+            }
+        }
+        .grid-item4{
+            grid-area: grid-item4;
+            border: 1px solid grey;
+
+            img{
+                width: 100%;
+                height: 80%;
+            }
+        }
+        .grid-item5{
+            grid-area: grid-item5;
+            border: 1px solid grey;
+
+            img{
+                width: 100%;
+                height: 80%;
+            }
+        }
+        .grid-item6{
+            grid-area: grid-item6;
+            border: 1px solid grey;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .grid-item7{
+            grid-area: grid-item7;
+            border: 1px solid grey;
+
+            img{ width: 100%;
+                height: 100%;}
+        }
+        .grid-item8{
+            grid-area: grid-item8;
+            border: 1px solid grey;
+
+            img{ width: 100%;
+                height: 100%;}
+        }
+        .grid-item9{
+            grid-area: grid-item9;
+            border: 1px solid grey;
+
+            img{ width: 100%;
+                height: 100%;}
+        }
     }

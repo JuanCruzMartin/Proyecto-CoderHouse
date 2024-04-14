@@ -16,6 +16,10 @@
   right: 0%;
 }
 
+main h2 {
+  color: #fff;
+}
+
 body {
   background-color: rgb(94, 85, 85);
 }
@@ -24,6 +28,7 @@ main {
   background-color: rgb(94, 85, 85);
 }
 
+/*footer indez */
 footer {
   min-height: 500px;
   background-color: rgb(94, 85, 85);
@@ -59,8 +64,111 @@ footer .iconos-redes-sociales a i {
   border: 2px solid rgb(13, 110, 253);
 }
 
+/* footer paginas que no son index*/
+.footer-shop {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.footer-shop .footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.footer-shop .footer-logo {
+  height: 4rem;
+  width: 4rem;
+  margin: 10px;
+  background-color: white;
+  position: relative;
+  align-self: center;
+}
+
+/* base pagina grid*/
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(2, 50%);
+  border: 1px solid grey;
+  grid-template-areas: "grid-item1 grid-item2 grid-item3 grid-item7 grid-item8" "grid-item1 grid-item4 grid-item5 grid-item6 grid-item9";
+}
+.grid-content .grid-item1 {
+  grid-area: grid-item1;
+  border: 1px solid grey;
+}
+.grid-content .grid-item1 p {
+  color: #fff;
+}
+.grid-content .grid-item2 {
+  grid-area: grid-item2;
+  border: 1px solid grey;
+}
+.grid-content .grid-item2 img {
+  width: 100%;
+  height: 80%;
+}
+.grid-content .grid-item3 {
+  grid-area: grid-item3;
+  border: 1px solid grey;
+}
+.grid-content .grid-item3 img {
+  width: 100%;
+  height: 80%;
+}
+.grid-content .grid-item4 {
+  grid-area: grid-item4;
+  border: 1px solid grey;
+}
+.grid-content .grid-item4 img {
+  width: 100%;
+  height: 80%;
+}
+.grid-content .grid-item5 {
+  grid-area: grid-item5;
+  border: 1px solid grey;
+}
+.grid-content .grid-item5 img {
+  width: 100%;
+  height: 80%;
+}
+.grid-content .grid-item6 {
+  grid-area: grid-item6;
+  border: 1px solid grey;
+}
+.grid-content .grid-item6 img {
+  width: 100%;
+  height: 100%;
+}
+.grid-content .grid-item7 {
+  grid-area: grid-item7;
+  border: 1px solid grey;
+}
+.grid-content .grid-item7 img {
+  width: 100%;
+  height: 100%;
+}
+.grid-content .grid-item8 {
+  grid-area: grid-item8;
+  border: 1px solid grey;
+}
+.grid-content .grid-item8 img {
+  width: 100%;
+  height: 100%;
+}
+.grid-content .grid-item9 {
+  grid-area: grid-item9;
+  border: 1px solid grey;
+}
+.grid-content .grid-item9 img {
+  width: 100%;
+  height: 100%;
+}
+
 header {
   background-color: rgb(94, 85, 85);
+  /*navbar*/
 }
 header .navbar {
   background-color: rgb(94, 85, 85);
@@ -75,15 +183,14 @@ header .navbar .navbar-collapse {
   align-items: center;
   justify-content: space-between;
 }
+header .navbar .navbar-collapse .nav-item .nav-link:hover {
+  color: red;
+}
 header .navbar .navbar-collapse .nav-item .nav-link {
   color: rgb(203, 212, 220);
   align-items: center;
   justify-content: center;
   display: flex;
-}
-
-.navbar a:hover {
-  color: red;
 }
 
 /* CARRUSEL*/
@@ -123,6 +230,70 @@ header .navbar .navbar-collapse .nav-item .nav-link {
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 100%;
+}
+
+/* cards de la shop*/
+.grid-content .imagenes .contenido {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.grid-content .imagenes .contenido img {
+  max-width: 90%;
+  max-height: 70%;
+  border-radius: 5px;
+  margin: 5px;
+  align-items: center;
+  margin-left: 10px;
+}
+.grid-content .imagenes .contenido p {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+.grid-content .imagenes .contenido .producto {
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: black 5px;
+}
+.grid-content .imagenes:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Pagina contactos*/
+.content .content-2 h2 {
+  color: #fff;
+}
+.content .content-2 .contacto {
+  color: #fff;
+}
+.content .content-2 fieldset legend {
+  color: #fff;
+}
+.content .content-2 fieldset div .labeltext {
+  color: #fff;
+}
+
+/* Pagina de registro*/
+main .content form fieldset legend {
+  color: #fff;
+}
+main .content form fieldset .labeltext {
+  color: #fff;
+}
+
+/* pagina de registro*/
+main .registrofotos {
+  display: flex;
+}
+main .registrofotos .modelo {
+  margin: 0;
+  padding: 0;
+  width: 50%;
   height: 100%;
 }
 

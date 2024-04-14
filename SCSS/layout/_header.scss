@@ -1,6 +1,6 @@
 header {
     background-color:  rgb(94, 85, 85);
-
+/*navbar*/
 .navbar {
     background-color: rgb(94, 85, 85);
     color: white;
@@ -13,6 +13,9 @@ header {
         align-items:center;
         justify-content:space-between;
         .nav-item {
+            .nav-link:hover{
+                color: red;
+            }
             .nav-link{
                 color: rgb(203, 212, 220);
                 align-items: center;
@@ -23,6 +26,3 @@ header {
         }
     }
 }
-    .navbar a:hover{
-        color: red;
-    }
