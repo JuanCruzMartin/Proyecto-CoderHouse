@@ -166,6 +166,21 @@ footer .iconos-redes-sociales a i {
   height: 100%;
 }
 
+/*pagina nosotros con grid */
+.grid-conteiner2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-area: "grid-itema grid-itemb";
+}
+.grid-conteiner2 .grid-itema {
+  grid-area: grid-itema;
+  grid-column: 1/2;
+}
+.grid-conteiner2 .grid-itemb {
+  grid-area: grid-itemb;
+  grid-column: 2/3;
+}
+
 header {
   background-color: rgb(94, 85, 85);
   /*navbar*/
@@ -286,6 +301,22 @@ main .content form fieldset .labeltext {
   color: #fff;
 }
 
+/* pagina de nosotros*/
+.grid-conteiner2 .grid-itemb .nosotrosh2 {
+  justify-content: center;
+  margin: 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.grid-conteiner2 .grid-itemb .historia {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 5%;
+  color: #fff;
+  padding-top: 2rem;
+}
+
 /* pagina de registro*/
 main .registrofotos {
   display: flex;
@@ -295,6 +326,99 @@ main .registrofotos .modelo {
   padding: 0;
   width: 50%;
   height: 100%;
+}
+
+.grid-conteiner2 .grid-itema img {
+  z-index: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .row .video-no {
+    display: none;
+  }
+  .grid-content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, 20%);
+    grid-template-areas: "grid-item1 grid-item1" "grid-item2 grid-item3" "grid-item4 grid-item5" "grid-item6 grid-item7" "grid-item8 grid-item9";
+  }
+  .grid-content .grid-item1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .grid-conteiner2 {
+    display: flex;
+    justify-content: center;
+  }
+  .grid-itema img {
+    display: none;
+  }
+  .imagenes img {
+    width: 70%;
+    height: 50%;
+  }
+  .imagenes {
+    display: flex;
+    justify-content: center;
+  }
+  .grid-conteiner2 {
+    display: flex;
+    justify-content: center;
+  }
+  .grid-itema img {
+    display: none;
+  }
+  .imagenes:hover {
+    background-color: black;
+    color: white;
+  }
+}
+@media screen and (max-width: 1077px) {
+  .grid-conteiner2 {
+    display: flex;
+    justify-content: center;
+  }
+  .grid-itema img {
+    display: none;
+  }
+}
+/* Pagina contactos*/
+.content .content-2 h2 {
+  color: #fff;
+}
+.content .content-2 .contacto {
+  color: #fff;
+}
+.content .content-2 fieldset legend {
+  color: #fff;
+}
+.content .content-2 fieldset div .labeltext {
+  color: #fff;
+}
+
+/* Pagina de registro*/
+main .content form fieldset legend {
+  color: #fff;
+}
+main .content form fieldset .labeltext {
+  color: #fff;
+}
+
+/* pagina de nosotros*/
+.grid-conteiner2 .grid-itemb .nosotrosh2 {
+  justify-content: center;
+  margin: 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.grid-conteiner2 .grid-itemb .historia {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 5%;
+  color: #fff;
+  padding-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

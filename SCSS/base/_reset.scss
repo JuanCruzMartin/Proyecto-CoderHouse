@@ -175,3 +175,19 @@ footer {
                 height: 100%;}
         }
     }
+/*pagina nosotros con grid */
+.grid-conteiner2 {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-area: 
+    "grid-itema grid-itemb";
+
+    .grid-itema {
+        grid-area: grid-itema;
+        grid-column: 1/2;
+    }
+    .grid-itemb {
+        grid-area: grid-itemb;
+        grid-column: 2/3;
+    }
+}
