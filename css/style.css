@@ -200,6 +200,8 @@ header .navbar .navbar-collapse {
 }
 header .navbar .navbar-collapse .nav-item .nav-link:hover {
   color: red;
+  margin: 15px;
+  transition: 1s;
 }
 header .navbar .navbar-collapse .nav-item .nav-link {
   color: rgb(203, 212, 220);

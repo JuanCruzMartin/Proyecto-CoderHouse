@@ -1,7 +1,8 @@
 /**  PAGINA INDEX**/
 /* GENERALES*/
+$color-fondo:rgb(94, 85, 85);
 .container {
-    background-color: rgb(94, 85, 85);
+    background-color: $color-fondo;
     margin: 0;
     padding: 0;
 }
@@ -19,10 +20,10 @@ main h2{
 }
 
 body {
-    background-color: rgb(94, 85, 85);
+    background-color: $color-fondo;
 }
 main {
-    background-color: rgb(94, 85, 85);
+    background-color: $color-fondo;
 }
 /*footer indez */
 footer {

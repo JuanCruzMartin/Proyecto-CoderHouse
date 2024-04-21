@@ -1,8 +1,10 @@
+$color-fondo:rgb(94, 85, 85);
+
 header {
-    background-color:  rgb(94, 85, 85);
+    background-color: $color-fondo;
 /*navbar*/
 .navbar {
-    background-color: rgb(94, 85, 85);
+    background-color: $color-fondo;
     color: white;
     .navbar-contenedor .navbar-brand {
         color:white;
@@ -15,6 +17,8 @@ header {
         .nav-item {
             .nav-link:hover{
                 color: red;
+                margin: 15px;
+                transition: 1s;
             }
             .nav-link{
                 color: rgb(203, 212, 220);
