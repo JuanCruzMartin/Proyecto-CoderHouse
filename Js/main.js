@@ -81,3 +81,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     actualizarCarrito();
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const clickCounts = {};
+
+   
+    const buttons = document.querySelectorAll('.add-to-cart');
+
+    buttons.forEach(button => {
+      
+        const product = button.dataset.product;
+        clickCounts[product] = 0;
+
+        button.addEventListener('click', (event) => {
+            
+            clickCounts[product]++;
+            console.log(`Producto: ${product}, Cantidad de clics: ${clickCounts[product]}`);
+        });
+    });
+});
