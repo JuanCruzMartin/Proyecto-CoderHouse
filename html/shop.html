@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,147 +6,156 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <meta name="description" content="En esta pagina encontraras todo tipo de producto paras tu aventura en la naturaleza, desde gorras a necceseres">
     <a href="https://web.whatsapp.com/" target="_blank"><img src="../imagenes/icons8-whatsapp.svg" alt="whatsapp" class="whatsapp" ></a>  
     <meta name="geo.placename" content="Buenos Aires">
-    <script src="../Js/main.js"></script>
+    <script defer src="../Js/main.js"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg d-flex  ">
+        <nav class="navbar navbar-expand-lg d-flex">
             <div class="container-fluid navbar-contenedor">
-              <a class="navbar-brand" href="#">Pharos </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">INCIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotrosgrid.html">NOSOTROS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="registro.html">REGISTRARSE</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">C0NTACTO</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#">Pharos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotrosgrid.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registro.html">REGISTRARSE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
-        </header>
-<main class="grid-content">
-    <!--Parte de compras-->
-<form action="" class="grid-item1">
-    <div class="categorias">
-        <p>Categorias</p>
-        <select name="" id="">
-            <option value="">Gorras  </option>
-            <option value="">Necceser  </option>
-            <option value="">Matera  </option>
-        </select>
-    </div>
-    <div class="talle">
-        <p>Talle</p>
-        <select name="" id="">
-            <option value="">S</option>
-            <option value="">M</option>
-            <option value="">L</option>
-        </select>
-       
-    </div>
-    <div class=" gorras">
-        <p>Gorras</p>
-        <select name="" id="">
-            <option value="">Logan</option>
-            <option value="">Pharos</option>
-            <option value="">Condor</option>
-        </select>
-    </div>
-    <div>
-        <p>Accesorios</p>
-        <select name="" id="">
-            <option value="">Billetera</option>
-            <option value="">Pulseras</option>
-            
-        </select>
-    </div>
-</form>
-<div class="imagenes contenido-grid grid-item2 ">
-        <div id="producto-container"  class="contenido">
-         <img src="../imagenes/australiano-caqui.jpeg" alt="australiano" class="producto">
-            <p>Australiano caqui</p>
-            <P>10000$</P>
+        </nav>
+    </header>
+    <main class="grid-content">
+        <!-- Parte de compras -->
+        <form action="" class="grid-item1">
+            <div class="categorias">
+                <p>Categorias</p>
+                <select name="" id="categorias">
+                    <option value="gorras">Gorras</option>
+                    <option value="necceser">Necceser</option>
+                    <option value="matera">Matera</option>
+                </select>
+            </div>
+            <div class="talle">
+                <p>Talle</p>
+                <select name="" id="talle">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+            </div>
+            <div class="gorras">
+                <p>Gorras</p>
+                <select name="" id="gorras">
+                    <option value="logan">Logan</option>
+                    <option value="pharos">Pharos</option>
+                    <option value="condor">Condor</option>
+                </select>
+            </div>
+            <div>
+                <p>Accesorios</p>
+                <select name="" id="accesorios">
+                    <option value="billetera">Billetera</option>
+                    <option value="pulseras">Pulseras</option>
+                </select>
+            </div>
+        </form>
+        <div class="imagenes contenido-grid grid-item2">
+            <div class="contenido">
+                <img src="../imagenes/australiano-caqui.jpeg" alt="australiano" class="producto">
+                <p>Australiano caqui</p>
+                <p>10000$</p>
+                <button class="add-to-cart" data-product="Australiano caqui" data-price="10000">Agregar al carrito</button>
+            </div>
         </div>
-</div>
-<div class=" imagenes grid-item3">
-    <div id="producto-container"  class="contenido">
-     <img src="../imagenes/logan.jpeg" alt="logan"  class="producto">
-     <p>Logan</p>
-     <p>10000$</p>
-    </div>
-</div>
-    <div class="imagenes grid-item4">
-        <div id="producto-container" class="contenido">
-        <img src="../imagenes/pharos-roja.jpeg" alt="pharos-roja"  class="producto">
-        <p>Pharos roja</p>
-        <p>10000$</p>
+        <div class="imagenes grid-item3">
+            <div class="contenido">
+                <img src="../imagenes/logan.jpeg" alt="logan" class="producto">
+                <p>Logan</p>
+                <p>10000$</p>
+                <button class="add-to-cart" data-product="Logan" data-price="10000">Agregar al carrito</button>
+            </div>
         </div>
+        <div class="imagenes grid-item4">
+            <div class="contenido">
+                <img src="../imagenes/pharos-roja.jpeg" alt="pharos-roja" class="producto">
+                <p>Pharos roja</p>
+                <p>10000$</p>
+                <button class="add-to-cart" data-product="Pharos roja" data-price="10000">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="imagenes grid-item5">
+            <div class="contenido">
+                <img src="../imagenes/necceser.jpeg" alt="necceser" class="producto">
+                <p>Necceser</p>
+                <p>10000$</p>
+                <button class="add-to-cart" data-product="Necceser" data-price="10000">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="imagenes grid-item6">
+            <div class="contenido">  
+                <img src="../imagenes/billeteras.jpeg" alt="billetera" class="producto">
+                <p>Billetera</p>
+                <p>5000$</p>
+                <button class="add-to-cart" data-product="Billetera" data-price="5000">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="imagenes grid-item7">
+            <div class="contenido">
+                <img src="../imagenes/aguara.png" alt="aguara" class="producto">
+                <p>AGUARA</p>
+                <p>5000$</p>
+                <button class="add-to-cart" data-product="AGUARA" data-price="5000">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="imagenes grid-item8">
+            <div class="contenido">
+                <img src="../imagenes/matera.png" alt="matera" class="producto">
+                <p>Matera</p>
+                <p>20000$</p>
+                <button class="add-to-cart" data-product="Matera" data-price="20000">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="imagenes grid-item9">
+            <div class="contenido">
+                <img src="../imagenes/ceibo.png" alt="ceibo" class="producto">
+                <p>Ceibo</p>
+                <p>20000$</p>
+                <button class="add-to-cart" data-product="Ceibo" data-price="20000">Agregar al carrito</button>
+            </div>
+        </div>
+    </main>
+    <div id="carrito" class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito-items"></ul>
+        <p>Total: $<span id="total">0</span></p>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
     </div>
-    <div class="imagenes grid-item5">
-        <div id="producto-container" class="contenido">
-     <img src="../imagenes/necceser.jpeg" alt="necceser"  class="producto">
-     <p>Necceser</p>
-     <p>10000$</p>
-    </div>
-</div>
-<div class="imagenes grid-item6">
-    <div id="producto-container" class="contenido">  
-            <img src="../imagenes/billeteras.jpeg" alt="billetera" class="producto">
-            <p>billetera</p>
-            <p>5000$</p>  
-    </div>
-</div>
-<div class="imagenes grid-item7">
-    <div id="producto-container" class="contenido">
-            <img src="../imagenes/aguara.png" alt="aguara" class="producto">
-            <p>AGUARA</p>
-            <p>5000$</p>
-    </div>
-</div>
-<div class="imagenes grid-item8">
-    <div id="producto-container" class="contenido">
-            <img src="../imagenes/matera.png" alt="matera" class="producto">
-            <p>Matera</p>
-            <p>20000$</p>
-    </div>
-</div>
-<div class="imagenes grid-item9">
-    <div id="producto-container" class="contenido">
-            <img src="../imagenes/ceibo.png" alt="ceibo" class="producto">
-            <p>ceibo</p>
-            <p>20000$</p>
-    </div>
-</div>
-</main>
-<footer class="footer-shop flex-column">
-    <img class="footer-logo" src="../imagenes/icons8-faro-64.png" alt="faro">
-    <p class="footer-texto">
-    Aprendo y creo todos los dias.<br>Creemos un proyecto juntos
-    </p>
-   <div class="div-footer">
-    <a href="https://www.instagram.com/pharos_ar/" target="_blank" rel="noopener noreferrer"><img src="../imagenes/icons8-instagram.svg" alt="ig"></a>
-    <a href="https://www.bepharos.com.ar/" target="_blank" rel="noopener noreferrer" class="home"><img src="../imagenes/icons8-casa.svg" alt="casa"></a>
-   </div>
-    <p>Copyright 2024 @pharos_ar</p>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-</html>
+    <footer class="footer-shop flex-column">
+        <img class="footer-logo" src="../imagenes/icons8-faro-64.png" alt="faro">
+        <p class="footer-texto">
+        Aprendo y creo todos los dias.<br>Creemos un proyecto juntos
+        </p>
+       <div class="div-footer">
+        <a href="https://www.instagram.com/pharos_ar/" target="_blank" rel="noopener noreferrer"><img src="../imagenes/icons8-instagram.svg" alt="ig"></a>
+        <a href="https://www.bepharos.com.ar/" target="_blank" rel="noopener noreferrer" class="home"><img src="../imagenes/icons8-casa.svg" alt="casa"></a>
+       </div>
+        <p>Copyright 2024 @pharos_ar</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6
